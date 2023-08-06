@@ -1,0 +1,65 @@
+#header{
+	display:grid;
+	grid-template-columns:2fr 5fr;
+	background:#808080;
+	color:white;
+
+}
+#image{
+	height:150px;
+	width:150px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+}
+#name{
+	letter-spacing: 0.3em;
+	font-weight: bold;
+	margin-top: 20px;
+
+}
+#web{
+	letter-spacing: 0.2em;
+	margin-top: 30px;
+}
+#underline{
+	width: 500px;
+    height: 2px;
+    margin-top: 6px;
+	
+}
+#exp{
+	background: #CDCDCF !important;
+	padding:  10px;
+}
+#wrapper{
+	padding: 0px;
+	margin-top: 50px;
+}
+.fetchtable{
+	color: white;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+
+.finalresh{
+	font-size: 22px;
+	/* font-family: roboto; */
+	font-weight: 600;
+}
+
+.resheader{
+	vertical-align: top;
+    font-weight: 400;
+    color: white;
+    font-family: monospace;
+    font-size: 1.4em;
+}
+
+.icon{
+	margin-right: 5px;
+	color:#eed2ae; 
+	text-decoration: none; 
+	background-color: transparent;
+}

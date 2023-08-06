@@ -1,0 +1,99 @@
+
+.center{
+display:flex;
+justify-content:center;
+align-items:center;
+height: 22em;
+}
+.main{
+    height: max-content;
+    margin: 0px;
+    width: -webkit-fill-available;
+   /*  margin-left: 4em; */
+}
+
+/* h1{
+position:absolute;
+top:4%;
+left:27%;
+transform:translate(0%,-30%);
+color:transparent;
+-webkit-text-stroke:4px white;
+font-size:10rem;
+/*text-shadow:0px 0px rgb(95,158,160);*/
+transition:all .4s;
+} */
+/*h1:hover{
+//text-shadow:12px 12px rgb(240,54,54),17px 17px rgb(54,97,240),22px 22px 50px rgb(73,73,73);
+text-shadow:12px 12px rgb(128,37,89),17px 17px rgb(245,222,179);//,22px 22px 50px rgb(240,230,140);
+}*/
+.card{
+width:350px;
+height:350px;
+position:relative;
+cursor:pointer;
+margin:10px;
+overflow:hidden;
+}
+.card img{
+/* width:100%;
+height:100vh; */
+transition: all .5s;
+}
+.card-img-overlay{
+position:absolute;
+top:50%;
+left:25%;
+transform:translate(-50%,-50%);
+width:300px;
+height:300px;
+background:rgba(255,255,255,0.5);
+flex-direction:column;
+color:black;
+clip-path:circle(0% at 50% 50%);
+transition:all .5s;
+}
+.card:hover .card-img-overlay{
+clip-path:circle(100% at 50% 50%);
+}
+.card:hover img{
+filter:blur(10px);
+transform:scale(1.1);
+}
+.card-img-overlay p{
+margin:10px 0 0 15px;
+}
+.fa-instagram{
+color:#c32aa3;
+}
+.fa-facebook{
+color:#1877f2;
+}
+.fa-github{
+color:#000;
+}
+/* 
+#teammemb{
+    position: absolute;
+    left: 34%;
+    top: 33%;
+    border-top-left-radius: 12em;
+    border-bottom-right-radius: 12em;
+    background-color: currentcolor;
+}
+#teammemb h1{
+	padding: 2.5em;
+}
+ */
+/*.card::before{
+content:"";
+position:absolute;
+width:700px;
+height:700px;
+background:linear-gradient(45deg,#3dec28,#00000000,#00000000,#1c58c9);
+z-index:-1;
+transition:all .6s;
+}
+.card:hover::before{
+transform:rotate(270deg);
+}*/

@@ -1,0 +1,275 @@
+.bdy{
+	background-image: url("../images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.menu{
+	border-top-right-radius: 30%;
+	border-bottom-right-radius: 30%;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu_content > div{
+    border-radius: 100em 100em 100em 100em;
+    font-size: 110%;
+    font-family: Bahnschrift Light;
+}
+
+.mainheading{
+	font-size: 5em;
+	color: #5f4646;
+	font-family: Agency FB;
+	font-weight: bold;
+  animation:type 3s steps(17);
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.para{
+    font-size: 22px;
+    color: antiquewhite;
+    font-family: monospace;
+
+}
+
+.bar{
+  height:5px;
+  width:30px;
+  margin: 3px;
+  background-color:#696969;
+  display: block;
+  border-radius:5px;
+}
+
+
+#mob_menu{
+  position: relative;
+	cursor:pointer;
+  z-index:2;
+}
+.change #bar1{                                                              /* Styling on div having id 'bar1' */
+  transform:translateY(10px) rotateZ(-49deg);
+  background-color: #f0e68c;
+}
+.change #bar3{                                                              /* Styling on div having id 'bar3' */
+  transform:translateY(-6px) rotateZ(44deg);
+  background-color: #f0e68c;
+}
+.change #bar2{                                                              /* Styling on div having id 'bar2'  */
+  opacity: 0;
+}
+
+.inptext{
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	background: border-box;
+	border-bottom-color: cornsilk;
+  border-bottom-width: revert;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom-color:#388E3C ;
+    border-bottom-width: medium;
+}
+
+.labelText{
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.divpos{
+  position: relative;
+  left: -95px;
+  width: 75em;
+}
+
+#usercontact{
+background-image:url("../images/contactuspic.jpg");
+background-size: cover;
+border-radius: 1%;
+margin-top: 38em;
+}
+
+/* #more{
+        display: none;
+      } */
+ button{
+         background-color: #ff0066;
+         border: none;
+         outline: none;
+         color: white;
+         font-size: 20px;
+         padding: 5px;
+        }
+
+.abtparent{
+  background-color:#8fbc8f;
+  height: 646px;
+  width: -webkit-fill-available;
+
+}
+
+.abtchild{
+    background-color: beige;
+    border-top-right-radius: 14em;
+    border-bottom-right-radius: 14em;
+    padding: 3em 5em 29px 148px;
+  }
+
+
+.headabt{
+    text-decoration: underline;
+    text-decoration-color: #E75480;
+    margin: 30px 0px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: -webkit-pictograph;
+}
+
+  #template{
+    background-color: #c4aec7;
+    margin-top: 0.5em;
+  }
+
+
+   .swiper-container {
+    width: 86%;
+    height: 83%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: transparent;      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      position: relative;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.swiper-slide > img{
+-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+} 
+
+.view{
+  cursor: pointer;
+}
+
+@keyframes type{
+0%{
+width:0ch;
+}
+100%{
+width:17ch;
+}
+}
+
+
+.view{
+  position: absolute;
+}
+
+.featlist{
+    list-style-type: none;
+    padding: 51px 20px;
+    margin: 4.2em auto;
+}
+
+.featlist .fa-check-circle{
+    padding-right: 8px;
+    color: #4fbf2b;
+}
+
+.featlist .fa-times-circle{
+   padding-right: 8px;
+   color: #de2e2e; 
+}
+
+#subscription{
+    padding: 1em 2em 1em 11em;
+    background-color:#f7f3d5;
+   /* background-color:#b4e15a; */
+    height: 41em;
+}
+
+.price{
+  text-align: center;
+  padding: 15px 0px;
+  background-color: #ffe2bc;
+  border-radius: 1em 2em 20em 20em;
+}
+
+.pricecard{
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid #c8c1ab;
+   /*  height: 29.1em; */
+    height: max-content;
+    box-shadow: 1px 0px 1px;
+    border-radius: 1em;
+    /* background-color: white; */
+}
+
+.pricecard:hover{
+      transition: all 0.3s;
+      transform: translateY(-17px);
+}
+
+
+/* .subbtn:hover{
+    transition: all 0.4s ease-in-out;
+    transform: translateY(-27px);
+} */
+
+
+.subbtn > button{
+      margin: 10px 0px;
+}
+
+.subbtn{
+  text-align: center;
+  position: relative;
+  display: flex;
+  /* justify-content: center;*/  
+  justify-content: flex-end;
+  align-items: center;
+  border-radius:0em 0em 1em 1em;
+  z-index: 1
+}
+
+
+.bgstyle{
+    content: "";
+    background-color: #494444;
+    position: absolute;
+    width: 9em;
+    height: 4em;
+    top: -0.2em;
+    right: -2px;
+    overflow: hidden;
+    z-index: -1;
+    border-radius: 4em 0em 1em 4em;
+    border-style: groove;
+}
+
+.tempnum{
+    padding-left: 6px;
+}
+
+

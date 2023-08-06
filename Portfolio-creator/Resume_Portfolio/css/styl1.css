@@ -1,0 +1,130 @@
+.banner-title{
+padding-top:20px;
+}
+.banner-title h1{
+background:rgba(255,255,255,0.5);
+/*background:rgba(231,76,60,0.5);*/
+//background:rgba(0,128,128,0.3);
+display:inline-block;
+padding:10px;
+margin:0;
+font-family: serif;
+}.frm{
+/*background:rgba(231,76,60,0.5);*/
+background:rgba(25,25,25,0.3);
+/*background:rgba(128,128,0,0.1);*/
+//background:rgba(0,128,128,0.3);
+
+padding:10px;
+}
+.form-group{
+position: relative;	
+}
+.fa-check-circle,.fa-exclamation-circle{
+position: absolute;
+right:197px;
+top: 13px;
+z-index: 1;
+visibility: hidden;
+}
+.form-group small{
+visibility: hidden;
+}
+.form-group.success input{
+	border-color: #2ecc71;
+}
+.form-group.error input{
+	border-color: #e74c3c;
+}
+.form-group.success i.fa-check-circle{
+	color: #2ecc71;
+	visibility: visible;
+}
+.form-group.error i.fa-exclamation-circle{
+	color: #e74c3c;
+	visibility: visible;
+}
+.form-group.error small{
+	color: e74c3c;
+	visibility: visible;
+}
+.sz small{
+font-size:15px;
+}
+#hl{
+font-size:20px;
+font-weight:bolder;
+color:#000;
+}
+#hl a{
+font-size:20px;
+font-weight:500;
+}
+.a{
+border-radius:0px 0px 40px 40px;
+outline:none;
+text-align:center;
+border:none;
+}/*
+.b{
+border-radius:0px 0px 40px 40px;
+outline:none;
+text-align:center;
+border:none;
+}
+.c{
+border-radius:0px 0px 40px 40px;
+outline:none;
+text-align:center;
+border:none;
+}
+.d{
+border-radius:0px 0px 40px 40px;
+outline:none;
+text-align:center;
+border:none;
+}*/
+.e{
+border-radius:0px 0px 40px 40px;
+height:50px !important;
+}
+.btn{
+background:linear-gradient(to left ,#12CBC4,#0652DD,#12CBC4);
+//background:linear-gradient(to left ,#FDA7DF,#9988FA,#FDA7DF);
+//background:linear-gradient(to left ,#FFC312,#EE5A24,#FFC312);
+//background:linear-gradient(to left ,#C4E538,#009432,#C4E538);
+font-size:25px;
+color:#fff;
+transition: all 0.6s;
+}
+.btn:hover{
+background:linear-gradient(to left ,#C4E538,#009432,#C4E538);
+border:none;
+font-size:30px;
+}
+/*
+if(isset($_POST['save'])){
+  $con = mysqli_connect("localhost","root","","practicse") or die("connection failed:");
+
+  $user =mysqli_real_escape_string($con,$_POST['user']);
+  $emailid = mysqli_real_escape_string($con,$_POST['emailid']);
+  $passwd= mysqli_real_escape_string($con,$_POST['passwd']);
+  $passwd1 = mysqli_real_escape_string($con,md5($_POST['passwd1']));
+  
+  $sql = "SELECT name FROM signup WHERE name = '{$user}'";
+
+  $result = mysqli_query($conn, $sql) or die("Query Failed.");
+
+  if(mysqli_num_rows($result) > 0){
+    echo "<p style='color:red;text-align:center;margin: 10px 0;'>UserName already Exists.</p>";
+  }else{
+    $sql1 = "INSERT INTO signup (name,emailid, password, retypepass)
+              VALUES ('{$user}','{$emailid}','{$passwd}','{$passwd1}' ";
+    if(mysqli_query($con,$sql1)){
+      header("Location: first2.php");
+    }else{
+      echo "Can't Insert User.";
+    }
+  }
+}
+*/
